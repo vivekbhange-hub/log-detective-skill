@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "log-detective-skill",
+  "description": "Turn a gigabyte of logs into what broke, since when and why, without pasting the logs into the chat.",
+  "owner": { "name": "Vivek Bhange", "url": "https://github.com/vivekbhange-hub" },
+  "plugins": [
+    {
+      "name": "log-detective-skill",
+      "description": "Five skills and two agents that cluster failure signatures from large logs, group stack traces by root cause, merge logs from several services into one timeline, diff logs across a deploy and draft a cited blameless post-mortem.",
+      "source": "./",
+      "category": "development",
+      "homepage": "https://github.com/vivekbhange-hub/log-detective-skill"
+    }
+  ]
+}

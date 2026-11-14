@@ -1,0 +1,108 @@
+2026-11-12 13:50:20,000 [http-nio-8081-exec-5] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70276 amount=77.27 GBP
+2026-11-12 13:50:56,135 [http-nio-8081-exec-6] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70296 amount=28.56 GBP
+2026-11-12 13:51:05,311 [http-nio-8081-exec-6] ERROR com.fernhill.payments.ChargeService - charge failed for order ord_70211
+com.fernhill.payments.GatewayException: Gateway call failed after 3 attempts
+	at com.fernhill.payments.GatewayClient.charge(GatewayClient.java:112)
+	at com.fernhill.payments.ChargeService.charge(ChargeService.java:58)
+	at com.fernhill.payments.api.ChargeController.post(ChargeController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at com.fernhill.payments.GatewayClient.post(GatewayClient.java:147)
+	at com.fernhill.payments.GatewayClient.charge(GatewayClient.java:104)
+	... 6 more
+2026-11-12 13:51:45,589 [http-nio-8081-exec-8] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70253 amount=44.55 GBP
+2026-11-12 13:52:24,901 [http-nio-8081-exec-4] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70246 amount=8.09 GBP
+2026-11-12 13:53:02,594 [http-nio-8081-exec-8] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70278 amount=41.73 GBP
+2026-11-12 13:53:41,687 [http-nio-8081-exec-5] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70359 amount=52.86 GBP
+2026-11-12 13:54:18,418 [http-nio-8081-exec-4] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70348 amount=106.45 GBP
+2026-11-12 13:55:03,367 [http-nio-8081-exec-7] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70360 amount=111.79 GBP
+2026-11-12 13:55:49,441 [http-nio-8081-exec-6] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70334 amount=93.83 GBP
+2026-11-12 13:56:14,077 [http-nio-8081-exec-7] WARN  com.fernhill.payments.GatewayClient - slow response from gateway: 2311ms
+2026-11-12 13:56:28,509 [http-nio-8081-exec-2] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70296 amount=25.42 GBP
+2026-11-12 13:57:13,996 [http-nio-8081-exec-4] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70235 amount=39.30 GBP
+2026-11-12 13:57:53,044 [http-nio-8081-exec-6] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70212 amount=77.59 GBP
+2026-11-12 13:58:31,902 [http-nio-8081-exec-2] ERROR com.fernhill.payments.ChargeService - charge failed for order ord_70277
+com.fernhill.payments.GatewayException: Gateway call failed after 3 attempts
+	at com.fernhill.payments.GatewayClient.charge(GatewayClient.java:112)
+	at com.fernhill.payments.ChargeService.charge(ChargeService.java:58)
+	at com.fernhill.payments.api.ChargeController.post(ChargeController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at com.fernhill.payments.GatewayClient.post(GatewayClient.java:147)
+	at com.fernhill.payments.GatewayClient.charge(GatewayClient.java:104)
+	... 6 more
+2026-11-12 13:58:41,408 [http-nio-8081-exec-8] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70258 amount=46.48 GBP
+2026-11-12 13:59:24,437 [http-nio-8081-exec-1] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70358 amount=59.78 GBP
+2026-11-12 14:00:12,496 [http-nio-8081-exec-2] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70312 amount=47.86 GBP
+2026-11-12 14:00:15,500 [http-nio-8081-exec-2] WARN  com.fernhill.payments.ChargeService - charge declined for order ord_70290: card 4242424242424242 expired
+2026-11-12 14:00:57,118 [http-nio-8081-exec-2] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70338 amount=103.84 GBP
+2026-11-12 14:01:30,640 [http-nio-8081-exec-2] WARN  com.fernhill.payments.GatewayClient - slow response from gateway: 2500ms
+2026-11-12 14:01:46,154 [http-nio-8081-exec-4] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70280 amount=62.09 GBP
+2026-11-12 14:02:27,196 [http-nio-8081-exec-8] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70216 amount=114.64 GBP
+2026-11-12 14:03:10,111 [http-nio-8081-exec-1] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70226 amount=27.24 GBP
+2026-11-12 14:03:56,754 [http-nio-8081-exec-7] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70353 amount=87.11 GBP
+2026-11-12 14:04:34,594 [http-nio-8081-exec-1] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70252 amount=29.70 GBP
+2026-11-12 14:05:14,423 [http-nio-8081-exec-6] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70346 amount=32.68 GBP
+2026-11-12 14:05:44,120 [http-nio-8081-exec-2] ERROR com.fernhill.payments.ChargeService - charge failed for order ord_70308
+com.fernhill.payments.GatewayException: Gateway call failed after 3 attempts
+	at com.fernhill.payments.GatewayClient.charge(GatewayClient.java:112)
+	at com.fernhill.payments.ChargeService.charge(ChargeService.java:58)
+	at com.fernhill.payments.api.ChargeController.post(ChargeController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at com.fernhill.payments.GatewayClient.post(GatewayClient.java:147)
+	at com.fernhill.payments.GatewayClient.charge(GatewayClient.java:104)
+	... 6 more
+2026-11-12 14:05:57,088 [http-nio-8081-exec-3] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70290 amount=78.51 GBP
+2026-11-12 14:06:12,008 [http-nio-8081-exec-2] WARN  com.fernhill.payments.GatewayClient - slow response from gateway: 2616ms
+2026-11-12 14:06:32,757 [http-nio-8081-exec-4] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70369 amount=103.10 GBP
+2026-11-12 14:07:20,931 [http-nio-8081-exec-8] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70216 amount=68.84 GBP
+2026-11-12 14:08:02,097 [http-nio-8081-exec-1] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70390 amount=42.50 GBP
+2026-11-12 14:08:47,614 [http-nio-8081-exec-1] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70354 amount=72.84 GBP
+2026-11-12 14:09:29,451 [http-nio-8081-exec-8] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70312 amount=20.76 GBP
+2026-11-12 14:10:18,309 [http-nio-8081-exec-5] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70201 amount=104.31 GBP
+2026-11-12 14:10:44,920 [http-nio-8081-exec-2] WARN  com.fernhill.payments.GatewayClient - slow response from gateway: 2859ms
+2026-11-12 14:11:04,284 [http-nio-8081-exec-7] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70241 amount=38.32 GBP
+2026-11-12 14:11:20,733 [http-nio-8081-exec-3] ERROR com.fernhill.payments.ChargeService - charge failed for order ord_70355
+com.fernhill.payments.GatewayException: Gateway call failed after 3 attempts
+	at com.fernhill.payments.GatewayClient.charge(GatewayClient.java:112)
+	at com.fernhill.payments.ChargeService.charge(ChargeService.java:58)
+	at com.fernhill.payments.api.ChargeController.post(ChargeController.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:884)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:278)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:304)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at com.fernhill.payments.GatewayClient.post(GatewayClient.java:147)
+	at com.fernhill.payments.GatewayClient.charge(GatewayClient.java:104)
+	... 6 more
+2026-11-12 14:11:47,386 [http-nio-8081-exec-4] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70357 amount=111.41 GBP
+2026-11-12 14:12:34,253 [http-nio-8081-exec-1] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70313 amount=31.38 GBP
+2026-11-12 14:13:14,669 [http-nio-8081-exec-8] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70205 amount=116.99 GBP
+2026-11-12 14:14:02,965 [http-nio-8081-exec-3] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70261 amount=74.05 GBP
+2026-11-12 14:14:39,739 [http-nio-8081-exec-8] INFO  com.fernhill.payments.GatewayClient - charge accepted for order ord_70249 amount=93.01 GBP

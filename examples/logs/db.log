@@ -1,0 +1,179 @@
+2026-11-12 13:50:00.201 UTC [1021] LOG:  checkpoint starting: time
+2026-11-12 13:50:30.512 UTC [1021] LOG:  checkpoint complete: wrote 336 buffers (1.9%); write=29.9 s, sync=0.012 s, total=30.1 s
+2026-11-12 13:51:30.000 UTC [2043] LOG:  duration: 785.0 ms  statement: SELECT id, name, price FROM products WHERE id = 3967
+2026-11-12 13:52:26.587 UTC [2021] LOG:  duration: 665.0 ms  statement: SELECT id, name, price FROM products WHERE id = 3817
+2026-11-12 13:53:31.954 UTC [2342] LOG:  duration: 526.7 ms  statement: SELECT id, name, price FROM products WHERE id = 9483
+2026-11-12 13:54:45.857 UTC [2130] LOG:  duration: 669.5 ms  statement: SELECT id, name, price FROM products WHERE id = 6230
+2026-11-12 13:55:00.201 UTC [1021] LOG:  checkpoint starting: time
+2026-11-12 13:55:30.512 UTC [1021] LOG:  checkpoint complete: wrote 331 buffers (1.9%); write=29.9 s, sync=0.012 s, total=30.1 s
+2026-11-12 13:56:00.617 UTC [2251] LOG:  duration: 879.8 ms  statement: SELECT id, name, price FROM products WHERE id = 3663
+2026-11-12 13:57:01.146 UTC [2862] LOG:  duration: 618.6 ms  statement: SELECT id, name, price FROM products WHERE id = 7207
+2026-11-12 13:58:06.420 UTC [2396] LOG:  duration: 885.1 ms  statement: SELECT id, name, price FROM products WHERE id = 3444
+2026-11-12 13:59:14.887 UTC [2056] LOG:  duration: 511.9 ms  statement: SELECT id, name, price FROM products WHERE id = 8335
+2026-11-12 14:00:00.201 UTC [1021] LOG:  checkpoint starting: time
+2026-11-12 14:00:24.503 UTC [2874] LOG:  duration: 873.8 ms  statement: SELECT id, name, price FROM products WHERE id = 1065
+2026-11-12 14:00:30.512 UTC [1021] LOG:  checkpoint complete: wrote 329 buffers (1.9%); write=29.9 s, sync=0.012 s, total=30.1 s
+2026-11-12 14:01:31.727 UTC [2392] LOG:  duration: 641.7 ms  statement: SELECT id, name, price FROM products WHERE id = 8172
+2026-11-12 14:02:41.318 UTC [2694] LOG:  duration: 882.6 ms  statement: SELECT id, name, price FROM products WHERE id = 7089
+2026-11-12 14:02:57.390 UTC [3119] FATAL:  remaining connection slots are reserved for non-replication superuser connections
+2026-11-12 14:03:00.140 UTC [3564] FATAL:  sorry, too many clients already
+2026-11-12 14:03:02.924 UTC [3764] FATAL:  sorry, too many clients already
+2026-11-12 14:03:05.951 UTC [3163] FATAL:  sorry, too many clients already
+2026-11-12 14:03:07.986 UTC [3806] FATAL:  sorry, too many clients already
+2026-11-12 14:03:10.933 UTC [3268] FATAL:  sorry, too many clients already
+2026-11-12 14:03:13.052 UTC [3596] FATAL:  sorry, too many clients already
+2026-11-12 14:03:16.018 UTC [3992] FATAL:  sorry, too many clients already
+2026-11-12 14:03:18.627 UTC [3573] FATAL:  sorry, too many clients already
+2026-11-12 14:03:22.098 UTC [3140] FATAL:  sorry, too many clients already
+2026-11-12 14:03:25.339 UTC [3422] FATAL:  sorry, too many clients already
+2026-11-12 14:03:28.014 UTC [3242] FATAL:  sorry, too many clients already
+2026-11-12 14:03:30.274 UTC [3476] FATAL:  sorry, too many clients already
+2026-11-12 14:03:32.923 UTC [3333] FATAL:  sorry, too many clients already
+2026-11-12 14:03:35.148 UTC [3951] FATAL:  sorry, too many clients already
+2026-11-12 14:03:37.251 UTC [3302] FATAL:  sorry, too many clients already
+2026-11-12 14:03:38.219 UTC [2824] LOG:  duration: 681.0 ms  statement: SELECT id, name, price FROM products WHERE id = 6838
+2026-11-12 14:03:40.482 UTC [3463] FATAL:  sorry, too many clients already
+2026-11-12 14:03:42.783 UTC [3898] FATAL:  sorry, too many clients already
+2026-11-12 14:03:45.317 UTC [3226] FATAL:  sorry, too many clients already
+2026-11-12 14:03:48.605 UTC [3923] FATAL:  sorry, too many clients already
+2026-11-12 14:03:50.772 UTC [3476] FATAL:  sorry, too many clients already
+2026-11-12 14:03:53.786 UTC [3999] FATAL:  sorry, too many clients already
+2026-11-12 14:03:56.503 UTC [3665] FATAL:  sorry, too many clients already
+2026-11-12 14:03:59.458 UTC [3739] FATAL:  sorry, too many clients already
+2026-11-12 14:04:02.684 UTC [3918] FATAL:  sorry, too many clients already
+2026-11-12 14:04:05.583 UTC [3424] FATAL:  sorry, too many clients already
+2026-11-12 14:04:08.314 UTC [3842] FATAL:  sorry, too many clients already
+2026-11-12 14:04:10.379 UTC [3488] FATAL:  sorry, too many clients already
+2026-11-12 14:04:13.873 UTC [3452] FATAL:  sorry, too many clients already
+2026-11-12 14:04:16.530 UTC [3547] FATAL:  sorry, too many clients already
+2026-11-12 14:04:18.969 UTC [3584] FATAL:  sorry, too many clients already
+2026-11-12 14:04:21.832 UTC [3874] FATAL:  sorry, too many clients already
+2026-11-12 14:04:24.115 UTC [3325] FATAL:  sorry, too many clients already
+2026-11-12 14:04:26.215 UTC [3806] FATAL:  sorry, too many clients already
+2026-11-12 14:04:29.066 UTC [3165] FATAL:  sorry, too many clients already
+2026-11-12 14:04:31.652 UTC [3907] FATAL:  sorry, too many clients already
+2026-11-12 14:04:34.774 UTC [3188] FATAL:  sorry, too many clients already
+2026-11-12 14:04:37.265 UTC [3881] FATAL:  sorry, too many clients already
+2026-11-12 14:04:40.153 UTC [3857] FATAL:  sorry, too many clients already
+2026-11-12 14:04:42.823 UTC [3361] FATAL:  sorry, too many clients already
+2026-11-12 14:04:45.424 UTC [3867] FATAL:  sorry, too many clients already
+2026-11-12 14:04:47.734 UTC [3649] FATAL:  sorry, too many clients already
+2026-11-12 14:04:50.165 UTC [3588] FATAL:  sorry, too many clients already
+2026-11-12 14:04:52.788 UTC [3775] FATAL:  sorry, too many clients already
+2026-11-12 14:04:55.886 UTC [3515] FATAL:  sorry, too many clients already
+2026-11-12 14:04:56.202 UTC [2544] LOG:  duration: 664.8 ms  statement: SELECT id, name, price FROM products WHERE id = 7216
+2026-11-12 14:04:58.942 UTC [3878] FATAL:  sorry, too many clients already
+2026-11-12 14:05:00.201 UTC [1021] LOG:  checkpoint starting: time
+2026-11-12 14:05:01.559 UTC [3867] FATAL:  sorry, too many clients already
+2026-11-12 14:05:04.592 UTC [3616] FATAL:  sorry, too many clients already
+2026-11-12 14:05:07.732 UTC [3714] FATAL:  sorry, too many clients already
+2026-11-12 14:05:10.450 UTC [3469] FATAL:  sorry, too many clients already
+2026-11-12 14:05:13.179 UTC [3810] FATAL:  sorry, too many clients already
+2026-11-12 14:05:16.178 UTC [3520] FATAL:  sorry, too many clients already
+2026-11-12 14:05:18.311 UTC [3959] FATAL:  sorry, too many clients already
+2026-11-12 14:05:20.867 UTC [3868] FATAL:  sorry, too many clients already
+2026-11-12 14:05:22.871 UTC [3122] FATAL:  sorry, too many clients already
+2026-11-12 14:05:25.565 UTC [3197] FATAL:  sorry, too many clients already
+2026-11-12 14:05:28.375 UTC [3306] FATAL:  sorry, too many clients already
+2026-11-12 14:05:30.512 UTC [1021] LOG:  checkpoint complete: wrote 303 buffers (1.9%); write=29.9 s, sync=0.012 s, total=30.1 s
+2026-11-12 14:05:31.154 UTC [3187] FATAL:  sorry, too many clients already
+2026-11-12 14:05:33.380 UTC [3608] FATAL:  sorry, too many clients already
+2026-11-12 14:05:36.789 UTC [3669] FATAL:  sorry, too many clients already
+2026-11-12 14:05:39.630 UTC [3570] FATAL:  sorry, too many clients already
+2026-11-12 14:05:43.023 UTC [3135] FATAL:  sorry, too many clients already
+2026-11-12 14:05:46.164 UTC [3970] FATAL:  sorry, too many clients already
+2026-11-12 14:05:48.905 UTC [3985] FATAL:  sorry, too many clients already
+2026-11-12 14:05:51.807 UTC [3154] FATAL:  sorry, too many clients already
+2026-11-12 14:05:54.681 UTC [3573] FATAL:  sorry, too many clients already
+2026-11-12 14:05:58.127 UTC [3747] FATAL:  sorry, too many clients already
+2026-11-12 14:06:00.602 UTC [3246] FATAL:  sorry, too many clients already
+2026-11-12 14:06:03.490 UTC [3508] FATAL:  sorry, too many clients already
+2026-11-12 14:06:06.544 UTC [3559] FATAL:  sorry, too many clients already
+2026-11-12 14:06:10.037 UTC [3917] FATAL:  sorry, too many clients already
+2026-11-12 14:06:12.959 UTC [3859] FATAL:  sorry, too many clients already
+2026-11-12 14:06:15.005 UTC [3449] FATAL:  sorry, too many clients already
+2026-11-12 14:06:15.463 UTC [2788] LOG:  duration: 546.4 ms  statement: SELECT id, name, price FROM products WHERE id = 9693
+2026-11-12 14:06:17.891 UTC [3977] FATAL:  sorry, too many clients already
+2026-11-12 14:06:20.048 UTC [3352] FATAL:  sorry, too many clients already
+2026-11-12 14:06:22.727 UTC [3631] FATAL:  sorry, too many clients already
+2026-11-12 14:06:25.866 UTC [3411] FATAL:  sorry, too many clients already
+2026-11-12 14:06:28.114 UTC [3590] FATAL:  sorry, too many clients already
+2026-11-12 14:06:31.177 UTC [3707] FATAL:  sorry, too many clients already
+2026-11-12 14:06:33.987 UTC [3803] FATAL:  sorry, too many clients already
+2026-11-12 14:06:37.085 UTC [3402] FATAL:  sorry, too many clients already
+2026-11-12 14:06:40.161 UTC [3812] FATAL:  sorry, too many clients already
+2026-11-12 14:06:43.362 UTC [3532] FATAL:  sorry, too many clients already
+2026-11-12 14:06:45.686 UTC [3487] FATAL:  sorry, too many clients already
+2026-11-12 14:06:48.691 UTC [3290] FATAL:  sorry, too many clients already
+2026-11-12 14:06:50.851 UTC [3235] FATAL:  sorry, too many clients already
+2026-11-12 14:06:53.059 UTC [3186] FATAL:  sorry, too many clients already
+2026-11-12 14:06:55.223 UTC [3345] FATAL:  sorry, too many clients already
+2026-11-12 14:06:57.512 UTC [3523] FATAL:  sorry, too many clients already
+2026-11-12 14:07:00.438 UTC [3179] FATAL:  sorry, too many clients already
+2026-11-12 14:07:03.696 UTC [3778] FATAL:  sorry, too many clients already
+2026-11-12 14:07:06.983 UTC [3354] FATAL:  sorry, too many clients already
+2026-11-12 14:07:10.311 UTC [3338] FATAL:  sorry, too many clients already
+2026-11-12 14:07:12.716 UTC [3256] FATAL:  sorry, too many clients already
+2026-11-12 14:07:16.119 UTC [3681] FATAL:  sorry, too many clients already
+2026-11-12 14:07:19.383 UTC [3187] FATAL:  sorry, too many clients already
+2026-11-12 14:07:22.758 UTC [3948] FATAL:  sorry, too many clients already
+2026-11-12 14:07:25.254 UTC [3979] FATAL:  sorry, too many clients already
+2026-11-12 14:07:28.350 UTC [3736] FATAL:  sorry, too many clients already
+2026-11-12 14:07:30.861 UTC [3416] FATAL:  sorry, too many clients already
+2026-11-12 14:07:32.951 UTC [2779] LOG:  duration: 563.0 ms  statement: SELECT id, name, price FROM products WHERE id = 8601
+2026-11-12 14:07:32.970 UTC [3140] FATAL:  sorry, too many clients already
+2026-11-12 14:07:35.697 UTC [3863] FATAL:  sorry, too many clients already
+2026-11-12 14:07:38.363 UTC [3181] FATAL:  sorry, too many clients already
+2026-11-12 14:07:41.686 UTC [3437] FATAL:  sorry, too many clients already
+2026-11-12 14:07:44.727 UTC [3664] FATAL:  sorry, too many clients already
+2026-11-12 14:07:47.314 UTC [3442] FATAL:  sorry, too many clients already
+2026-11-12 14:07:49.770 UTC [3320] FATAL:  sorry, too many clients already
+2026-11-12 14:07:53.120 UTC [3440] FATAL:  sorry, too many clients already
+2026-11-12 14:07:55.524 UTC [3895] FATAL:  sorry, too many clients already
+2026-11-12 14:07:58.609 UTC [3735] FATAL:  sorry, too many clients already
+2026-11-12 14:08:01.838 UTC [3747] FATAL:  sorry, too many clients already
+2026-11-12 14:08:04.455 UTC [3729] FATAL:  sorry, too many clients already
+2026-11-12 14:08:07.709 UTC [3877] FATAL:  sorry, too many clients already
+2026-11-12 14:08:10.443 UTC [3162] FATAL:  sorry, too many clients already
+2026-11-12 14:08:13.850 UTC [3306] FATAL:  sorry, too many clients already
+2026-11-12 14:08:16.154 UTC [3889] FATAL:  sorry, too many clients already
+2026-11-12 14:08:19.515 UTC [3956] FATAL:  sorry, too many clients already
+2026-11-12 14:08:22.345 UTC [3782] FATAL:  sorry, too many clients already
+2026-11-12 14:08:24.875 UTC [3589] FATAL:  sorry, too many clients already
+2026-11-12 14:08:28.161 UTC [3174] FATAL:  sorry, too many clients already
+2026-11-12 14:08:30.235 UTC [3896] FATAL:  sorry, too many clients already
+2026-11-12 14:08:32.570 UTC [3325] FATAL:  sorry, too many clients already
+2026-11-12 14:08:35.611 UTC [3487] FATAL:  sorry, too many clients already
+2026-11-12 14:08:37.843 UTC [2864] LOG:  duration: 717.1 ms  statement: SELECT id, name, price FROM products WHERE id = 9438
+2026-11-12 14:08:38.454 UTC [3293] FATAL:  sorry, too many clients already
+2026-11-12 14:08:41.475 UTC [3617] FATAL:  sorry, too many clients already
+2026-11-12 14:08:44.914 UTC [3797] FATAL:  sorry, too many clients already
+2026-11-12 14:08:47.520 UTC [3224] FATAL:  sorry, too many clients already
+2026-11-12 14:08:50.232 UTC [3811] FATAL:  sorry, too many clients already
+2026-11-12 14:08:53.706 UTC [3545] FATAL:  sorry, too many clients already
+2026-11-12 14:08:56.906 UTC [3197] FATAL:  sorry, too many clients already
+2026-11-12 14:09:00.348 UTC [3711] FATAL:  sorry, too many clients already
+2026-11-12 14:09:02.413 UTC [3966] FATAL:  sorry, too many clients already
+2026-11-12 14:09:05.305 UTC [3243] FATAL:  sorry, too many clients already
+2026-11-12 14:09:08.009 UTC [3703] FATAL:  sorry, too many clients already
+2026-11-12 14:09:10.599 UTC [3653] FATAL:  sorry, too many clients already
+2026-11-12 14:09:13.553 UTC [3551] FATAL:  sorry, too many clients already
+2026-11-12 14:09:16.212 UTC [3230] FATAL:  sorry, too many clients already
+2026-11-12 14:09:19.081 UTC [3934] FATAL:  sorry, too many clients already
+2026-11-12 14:09:22.101 UTC [3565] FATAL:  sorry, too many clients already
+2026-11-12 14:09:25.445 UTC [3576] FATAL:  sorry, too many clients already
+2026-11-12 14:09:28.243 UTC [3269] FATAL:  sorry, too many clients already
+2026-11-12 14:09:29.200 UTC [3500] LOG:  could not receive data from client: Connection reset by peer
+2026-11-12 14:09:29.240 UTC [3501] LOG:  could not receive data from client: Connection reset by peer
+2026-11-12 14:09:29.280 UTC [3502] LOG:  could not receive data from client: Connection reset by peer
+2026-11-12 14:09:29.320 UTC [3503] LOG:  could not receive data from client: Connection reset by peer
+2026-11-12 14:09:29.360 UTC [3504] LOG:  could not receive data from client: Connection reset by peer
+2026-11-12 14:09:29.400 UTC [3505] LOG:  could not receive data from client: Connection reset by peer
+2026-11-12 14:09:30.100 UTC [1021] LOG:  connection slots back under limit: 12 of 100 in use
+2026-11-12 14:09:44.110 UTC [2473] LOG:  duration: 563.0 ms  statement: SELECT id, name, price FROM products WHERE id = 8884
+2026-11-12 14:10:00.201 UTC [1021] LOG:  checkpoint starting: time
+2026-11-12 14:10:30.512 UTC [1021] LOG:  checkpoint complete: wrote 339 buffers (1.9%); write=29.9 s, sync=0.012 s, total=30.1 s
+2026-11-12 14:10:44.853 UTC [2870] LOG:  duration: 780.8 ms  statement: SELECT id, name, price FROM products WHERE id = 6214
+2026-11-12 14:12:01.217 UTC [2042] LOG:  duration: 566.9 ms  statement: SELECT id, name, price FROM products WHERE id = 5227
+2026-11-12 14:13:17.829 UTC [2693] LOG:  duration: 543.5 ms  statement: SELECT id, name, price FROM products WHERE id = 5126
+2026-11-12 14:14:18.580 UTC [2950] LOG:  duration: 679.3 ms  statement: SELECT id, name, price FROM products WHERE id = 7590

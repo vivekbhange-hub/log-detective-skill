@@ -1,0 +1,144 @@
+2026-11-11 10:30:21,533 WARNING shop.api.cache: cache miss for key product:3540
+2026-11-11 10:30:22,550 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:30:25,070 INFO    shop.api: request handled: GET /api/orders status=200 duration=362ms
+2026-11-11 10:30:25,535 WARNING shop.api.search: index shard 6495 unavailable, falling back to scan
+2026-11-11 10:30:25,786 ERROR   shop.api.payments: payment gateway timeout after 3000ms for order ord_6053
+2026-11-11 10:30:29,510 INFO    shop.api: request handled: GET /api/products status=200 duration=240ms
+2026-11-11 10:30:29,902 INFO    shop.api: request handled: GET /api/products status=200 duration=375ms
+2026-11-11 10:30:32,395 INFO    shop.api: request handled: GET /api/search status=200 duration=57ms
+2026-11-11 10:30:32,491 WARNING shop.api.cache: cache miss for key product:2854
+2026-11-11 10:30:35,947 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:30:45,595 INFO    shop.api: request handled: GET /api/products status=200 duration=124ms
+2026-11-11 10:30:48,140 INFO    shop.api: request handled: GET /api/orders status=200 duration=206ms
+2026-11-11 10:30:53,847 INFO    shop.api: request handled: GET /api/products status=200 duration=279ms
+2026-11-11 10:30:59,418 INFO    shop.api: request handled: GET /api/cart status=200 duration=253ms
+2026-11-11 10:31:01,581 WARNING shop.api.cache: cache miss for key product:6934
+2026-11-11 10:31:01,643 INFO    shop.api: request handled: GET /api/search status=200 duration=40ms
+2026-11-11 10:31:05,416 WARNING shop.api.cache: cache miss for key product:4796
+2026-11-11 10:31:07,470 WARNING shop.api.cache: cache miss for key product:4776
+2026-11-11 10:31:14,629 WARNING shop.api.cache: cache miss for key product:3834
+2026-11-11 10:31:18,233 INFO    shop.api: request handled: GET /api/orders status=200 duration=371ms
+2026-11-11 10:31:26,679 INFO    shop.api: request handled: GET /api/orders status=200 duration=359ms
+2026-11-11 10:31:28,337 WARNING shop.api.cache: cache miss for key product:1924
+2026-11-11 10:31:47,306 WARNING shop.api.cache: cache miss for key product:2953
+2026-11-11 10:31:48,037 WARNING shop.api.cache: cache miss for key product:7993
+2026-11-11 10:31:51,481 INFO    shop.api: request handled: GET /api/products status=200 duration=199ms
+2026-11-11 10:31:53,858 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:32:03,844 INFO    shop.api: request handled: GET /api/search status=200 duration=289ms
+2026-11-11 10:32:08,405 WARNING shop.api.cache: cache miss for key product:8955
+2026-11-11 10:32:09,206 WARNING shop.api.cache: cache miss for key product:8904
+2026-11-11 10:32:12,770 WARNING shop.api.cache: cache miss for key product:7434
+2026-11-11 10:32:18,130 INFO    shop.api: request handled: GET /api/cart status=200 duration=235ms
+2026-11-11 10:32:21,630 INFO    shop.api: request handled: GET /api/cart status=200 duration=180ms
+2026-11-11 10:32:28,697 INFO    shop.api: request handled: GET /api/orders status=200 duration=389ms
+2026-11-11 10:32:29,527 INFO    shop.api: request handled: GET /api/orders status=200 duration=25ms
+2026-11-11 10:32:35,393 INFO    shop.api: request handled: POST /api/checkout status=201 duration=152ms
+2026-11-11 10:32:50,024 INFO    shop.api: request handled: GET /api/products status=200 duration=169ms
+2026-11-11 10:32:58,631 INFO    shop.api: request handled: GET /api/cart status=200 duration=264ms
+2026-11-11 10:32:59,351 ERROR   shop.api.payments: payment gateway timeout after 3000ms for order ord_4201
+2026-11-11 10:33:01,218 WARNING shop.api.cache: cache miss for key product:6942
+2026-11-11 10:33:08,261 INFO    shop.api: request handled: GET /api/products status=200 duration=24ms
+2026-11-11 10:33:16,825 WARNING shop.api.cache: cache miss for key product:4215
+2026-11-11 10:33:34,916 WARNING shop.api.cache: cache miss for key product:6281
+2026-11-11 10:33:35,052 INFO    shop.api: request handled: POST /api/checkout status=201 duration=76ms
+2026-11-11 10:33:37,447 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:33:40,464 INFO    shop.api: request handled: GET /api/cart status=200 duration=315ms
+2026-11-11 10:33:42,208 INFO    shop.api: request handled: GET /api/search status=200 duration=326ms
+2026-11-11 10:33:42,450 WARNING shop.api.cache: cache miss for key product:3998
+2026-11-11 10:33:44,468 INFO    shop.api: request handled: GET /api/orders status=200 duration=286ms
+2026-11-11 10:33:50,565 INFO    shop.api: request handled: GET /api/orders status=200 duration=157ms
+2026-11-11 10:33:58,702 INFO    shop.api: request handled: GET /api/cart status=200 duration=358ms
+2026-11-11 10:33:59,011 WARNING shop.api.cache: cache miss for key product:8789
+2026-11-11 10:33:59,154 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:34:12,949 INFO    shop.api: request handled: GET /api/search status=200 duration=242ms
+2026-11-11 10:34:13,462 WARNING shop.api.cache: cache miss for key product:7402
+2026-11-11 10:34:17,589 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:34:17,697 INFO    shop.api: request handled: GET /api/orders status=200 duration=228ms
+2026-11-11 10:34:19,580 INFO    shop.api: request handled: GET /api/cart status=200 duration=204ms
+2026-11-11 10:34:22,381 WARNING shop.api.cache: cache miss for key product:3681
+2026-11-11 10:34:39,465 WARNING shop.api.cache: cache miss for key product:3078
+2026-11-11 10:34:46,269 WARNING shop.api.cache: cache miss for key product:4219
+2026-11-11 10:34:47,086 INFO    shop.api: request handled: GET /api/orders status=200 duration=241ms
+2026-11-11 10:34:49,653 WARNING shop.api.cache: cache miss for key product:7199
+2026-11-11 10:34:51,320 WARNING shop.api.cache: cache miss for key product:1205
+2026-11-11 10:34:51,823 INFO    shop.api: request handled: GET /api/search status=200 duration=283ms
+2026-11-11 10:34:52,604 WARNING shop.api.cache: cache miss for key product:5130
+2026-11-11 10:34:53,474 WARNING shop.api.search: index shard 9440 unavailable, falling back to scan
+2026-11-11 10:34:56,372 WARNING shop.api.cache: cache miss for key product:2100
+2026-11-11 10:35:06,225 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:35:07,667 WARNING shop.api.cache: cache miss for key product:8656
+2026-11-11 10:35:10,994 ERROR   shop.api.payments: payment gateway timeout after 3000ms for order ord_4113
+2026-11-11 10:35:20,334 ERROR   shop.api.payments: payment gateway timeout after 3000ms for order ord_3249
+2026-11-11 10:35:21,463 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:35:22,402 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:35:24,956 INFO    shop.api: request handled: GET /api/cart status=200 duration=149ms
+2026-11-11 10:35:25,682 INFO    shop.api: request handled: GET /api/search status=200 duration=367ms
+2026-11-11 10:35:25,948 WARNING shop.api.cache: cache miss for key product:3811
+2026-11-11 10:35:26,772 WARNING shop.api.search: index shard 4602 unavailable, falling back to scan
+2026-11-11 10:35:29,526 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:35:37,918 INFO    shop.api: request handled: GET /api/orders status=200 duration=204ms
+2026-11-11 10:35:39,312 INFO    shop.api: request handled: GET /api/orders status=200 duration=370ms
+2026-11-11 10:35:43,355 INFO    shop.api: request handled: GET /api/products status=200 duration=134ms
+2026-11-11 10:35:48,526 WARNING shop.api.cache: cache miss for key product:7508
+2026-11-11 10:35:51,516 INFO    shop.api: request handled: GET /api/cart status=200 duration=210ms
+2026-11-11 10:35:56,158 INFO    shop.api: request handled: GET /api/search status=200 duration=253ms
+2026-11-11 10:35:56,350 INFO    shop.api: request handled: POST /api/checkout status=201 duration=214ms
+2026-11-11 10:36:06,892 WARNING shop.api.cache: cache miss for key product:3324
+2026-11-11 10:36:10,324 INFO    shop.api: request handled: GET /api/orders status=200 duration=179ms
+2026-11-11 10:36:13,655 INFO    shop.api: request handled: GET /api/search status=200 duration=373ms
+2026-11-11 10:36:17,813 INFO    shop.api: request handled: GET /api/cart status=200 duration=163ms
+2026-11-11 10:36:22,336 WARNING shop.api.cache: cache miss for key product:9163
+2026-11-11 10:36:23,364 INFO    shop.api: request handled: GET /api/cart status=200 duration=35ms
+2026-11-11 10:36:32,519 WARNING shop.api.cache: cache miss for key product:6813
+2026-11-11 10:36:33,191 WARNING shop.api.cache: cache miss for key product:2176
+2026-11-11 10:36:36,801 INFO    shop.api: request handled: POST /api/checkout status=201 duration=237ms
+2026-11-11 10:36:43,334 INFO    shop.api: request handled: POST /api/checkout status=201 duration=113ms
+2026-11-11 10:36:47,742 INFO    shop.api: request handled: GET /api/cart status=200 duration=381ms
+2026-11-11 10:36:59,578 WARNING shop.api.search: index shard 2392 unavailable, falling back to scan
+2026-11-11 10:36:59,974 INFO    shop.api: request handled: GET /api/search status=200 duration=362ms
+2026-11-11 10:37:04,268 INFO    shop.api: request handled: GET /api/products status=200 duration=29ms
+2026-11-11 10:37:05,018 WARNING shop.api.cache: cache miss for key product:6205
+2026-11-11 10:37:07,335 INFO    shop.api: request handled: GET /api/search status=200 duration=377ms
+2026-11-11 10:37:08,363 INFO    shop.api: request handled: GET /api/orders status=200 duration=219ms
+2026-11-11 10:37:13,918 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:37:15,021 WARNING shop.api.cache: cache miss for key product:9464
+2026-11-11 10:37:32,120 INFO    shop.api: request handled: GET /api/cart status=200 duration=227ms
+2026-11-11 10:37:33,461 INFO    shop.api: request handled: GET /api/cart status=200 duration=132ms
+2026-11-11 10:37:41,430 INFO    shop.api: request handled: GET /api/orders status=200 duration=103ms
+2026-11-11 10:37:42,800 WARNING shop.api.cache: cache miss for key product:8624
+2026-11-11 10:37:45,298 INFO    shop.api: request handled: GET /api/search status=200 duration=358ms
+2026-11-11 10:37:50,236 WARNING shop.api.cache: cache miss for key product:2607
+2026-11-11 10:37:55,035 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:38:00,717 WARNING shop.api.cache: cache miss for key product:3170
+2026-11-11 10:38:02,524 INFO    shop.api: request handled: GET /api/cart status=200 duration=45ms
+2026-11-11 10:38:03,325 WARNING shop.api.cache: cache miss for key product:6516
+2026-11-11 10:38:17,623 INFO    shop.api: request handled: GET /api/orders status=200 duration=356ms
+2026-11-11 10:38:19,927 INFO    shop.api: request handled: GET /api/products status=200 duration=297ms
+2026-11-11 10:38:24,139 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:38:24,390 INFO    shop.api: request handled: GET /api/search status=200 duration=105ms
+2026-11-11 10:38:25,978 INFO    shop.api: request handled: GET /api/search status=200 duration=349ms
+2026-11-11 10:38:28,553 WARNING shop.api.cache: cache miss for key product:6612
+2026-11-11 10:38:31,519 INFO    shop.api: request handled: GET /api/cart status=200 duration=268ms
+2026-11-11 10:38:33,537 INFO    shop.api: request handled: GET /api/search status=200 duration=154ms
+2026-11-11 10:38:42,505 INFO    shop.api: request handled: GET /api/products status=200 duration=328ms
+2026-11-11 10:38:45,372 INFO    shop.api: request handled: GET /api/search status=200 duration=103ms
+2026-11-11 10:38:45,927 WARNING shop.api.cache: cache miss for key product:6564
+2026-11-11 10:38:48,857 WARNING shop.api.search: index shard 7103 unavailable, falling back to scan
+2026-11-11 10:38:53,647 INFO    shop.api: request handled: GET /api/search status=200 duration=66ms
+2026-11-11 10:38:58,986 INFO    shop.api: request handled: GET /api/cart status=200 duration=208ms
+2026-11-11 10:39:04,208 INFO    shop.api: request handled: GET /api/search status=200 duration=133ms
+2026-11-11 10:39:06,737 INFO    shop.api: request handled: GET /api/products status=200 duration=359ms
+2026-11-11 10:39:08,144 INFO    shop.api: request handled: POST /api/checkout status=201 duration=354ms
+2026-11-11 10:39:14,051 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:39:20,918 INFO    shop.api: request handled: GET /api/products status=200 duration=214ms
+2026-11-11 10:39:23,498 WARNING shop.api.cache: cache miss for key product:2207
+2026-11-11 10:39:27,922 INFO    shop.api: request handled: GET /api/products status=200 duration=338ms
+2026-11-11 10:39:30,740 INFO    shop.api: request handled: GET /api/search status=200 duration=148ms
+2026-11-11 10:39:32,695 ERROR   shop.api.payments: payment gateway timeout after 3000ms for order ord_1355
+2026-11-11 10:39:35,517 INFO    shop.api: request handled: GET /api/cart status=200 duration=113ms
+2026-11-11 10:39:36,686 INFO    shop.api: request handled: GET /api/products status=200 duration=111ms
+2026-11-11 10:39:38,511 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed
+2026-11-11 10:39:43,982 INFO    shop.api: request handled: GET /api/search status=200 duration=208ms
+2026-11-11 10:39:48,965 WARNING shop.api.search: index shard 7547 unavailable, falling back to scan
+2026-11-11 10:39:50,691 INFO    shop.api: request handled: GET /api/cart status=200 duration=28ms
+2026-11-11 10:39:55,690 ERROR   shop.api.tls: ssl handshake failed with upstream 203.0.113.30:443: certificate verify failed

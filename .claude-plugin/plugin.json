@@ -1,0 +1,20 @@
+{
+  "name": "log-detective-skill",
+  "description": "Turn a gigabyte of logs into what broke, since when and why, without pasting the logs into the chat. Clusters failure signatures, groups stack traces by root cause, builds a cross-service timeline and writes a cited post-mortem.",
+  "version": "1.0.0",
+  "author": { "name": "Vivek Bhange", "url": "https://github.com/vivekbhange-hub" },
+  "homepage": "https://github.com/vivekbhange-hub/log-detective-skill",
+  "repository": "https://github.com/vivekbhange-hub/log-detective-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "logs",
+    "log-analysis",
+    "debugging",
+    "stack-traces",
+    "incident-response",
+    "post-mortem",
+    "observability"
+  ]
+}

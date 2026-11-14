@@ -1,0 +1,108 @@
+2026-11-11 10:00:11,289 WARNING shop.api.cache: cache miss for key product:8736
+2026-11-11 10:00:15,729 INFO    shop.api: request handled: GET /api/products status=200 duration=52ms
+2026-11-11 10:00:15,885 INFO    shop.api: request handled: GET /api/cart status=200 duration=80ms
+2026-11-11 10:00:16,262 INFO    shop.api: request handled: GET /api/search status=200 duration=210ms
+2026-11-11 10:00:25,927 ERROR   shop.api.payments: payment gateway timeout after 3000ms for order ord_5364
+2026-11-11 10:00:29,103 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:00:31,197 INFO    shop.api: request handled: GET /api/products status=200 duration=308ms
+2026-11-11 10:00:36,784 INFO    shop.api: request handled: GET /api/orders status=200 duration=263ms
+2026-11-11 10:00:37,384 INFO    shop.api: request handled: GET /api/products status=200 duration=143ms
+2026-11-11 10:00:38,938 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:00:40,576 INFO    shop.api: request handled: GET /api/cart status=200 duration=150ms
+2026-11-11 10:00:49,222 ERROR   shop.api.payments: payment gateway timeout after 3000ms for order ord_2889
+2026-11-11 10:01:07,168 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:01:10,072 INFO    shop.api: request handled: GET /api/products status=200 duration=370ms
+2026-11-11 10:01:12,513 INFO    shop.api: request handled: GET /api/search status=200 duration=230ms
+2026-11-11 10:01:17,889 INFO    shop.api: request handled: GET /api/cart status=200 duration=126ms
+2026-11-11 10:01:24,097 INFO    shop.api: request handled: GET /api/products status=200 duration=347ms
+2026-11-11 10:01:35,074 INFO    shop.api: request handled: GET /api/products status=200 duration=375ms
+2026-11-11 10:01:36,670 INFO    shop.api: request handled: GET /api/search status=200 duration=90ms
+2026-11-11 10:01:38,695 INFO    shop.api: request handled: GET /api/cart status=200 duration=175ms
+2026-11-11 10:01:43,771 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:02:12,540 INFO    shop.api: request handled: GET /api/products status=200 duration=265ms
+2026-11-11 10:02:13,400 INFO    shop.api: request handled: GET /api/cart status=200 duration=314ms
+2026-11-11 10:02:15,837 INFO    shop.api: request handled: GET /api/products status=200 duration=200ms
+2026-11-11 10:02:22,481 ERROR   shop.api.payments: payment gateway timeout after 3000ms for order ord_7638
+2026-11-11 10:02:30,177 INFO    shop.api: request handled: GET /api/cart status=200 duration=285ms
+2026-11-11 10:02:54,872 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:03:07,798 WARNING shop.api.cache: cache miss for key product:4710
+2026-11-11 10:03:13,630 INFO    shop.api: request handled: GET /api/cart status=200 duration=263ms
+2026-11-11 10:03:19,020 INFO    shop.api: request handled: GET /api/cart status=200 duration=398ms
+2026-11-11 10:03:26,440 WARNING shop.api.cache: using deprecated redis client v3, set REDIS_V4=1
+2026-11-11 10:03:28,148 INFO    shop.api: request handled: GET /api/cart status=200 duration=122ms
+2026-11-11 10:03:29,024 ERROR   shop.api.payments: payment gateway timeout after 3000ms for order ord_8784
+2026-11-11 10:03:40,088 INFO    shop.api: request handled: GET /api/search status=200 duration=88ms
+2026-11-11 10:03:43,601 INFO    shop.api: request handled: GET /api/products status=200 duration=152ms
+2026-11-11 10:03:43,872 INFO    shop.api: request handled: GET /api/search status=200 duration=46ms
+2026-11-11 10:04:01,404 INFO    shop.api: request handled: GET /api/search status=200 duration=274ms
+2026-11-11 10:04:18,356 INFO    shop.api: request handled: GET /api/products status=200 duration=25ms
+2026-11-11 10:04:21,162 INFO    shop.api: request handled: GET /api/cart status=200 duration=43ms
+2026-11-11 10:04:26,332 INFO    shop.api: request handled: GET /api/orders status=200 duration=137ms
+2026-11-11 10:04:28,257 INFO    shop.api: request handled: GET /api/orders status=200 duration=208ms
+2026-11-11 10:04:29,697 INFO    shop.api: request handled: GET /api/orders status=200 duration=392ms
+2026-11-11 10:04:34,604 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:04:48,627 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:04:50,241 INFO    shop.api: request handled: POST /api/checkout status=201 duration=77ms
+2026-11-11 10:04:51,633 INFO    shop.api: request handled: POST /api/checkout status=201 duration=367ms
+2026-11-11 10:04:53,831 INFO    shop.api: request handled: GET /api/products status=200 duration=124ms
+2026-11-11 10:04:55,658 INFO    shop.api: request handled: GET /api/cart status=200 duration=291ms
+2026-11-11 10:05:07,689 INFO    shop.api: request handled: GET /api/products status=200 duration=109ms
+2026-11-11 10:05:18,919 INFO    shop.api: request handled: GET /api/cart status=200 duration=127ms
+2026-11-11 10:05:19,245 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:05:25,304 INFO    shop.api: request handled: GET /api/products status=200 duration=266ms
+2026-11-11 10:05:25,909 INFO    shop.api: request handled: GET /api/cart status=200 duration=332ms
+2026-11-11 10:05:26,838 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:05:26,950 INFO    shop.api: request handled: GET /api/products status=200 duration=30ms
+2026-11-11 10:05:34,395 INFO    shop.api: request handled: GET /api/products status=200 duration=57ms
+2026-11-11 10:05:42,843 INFO    shop.api: request handled: GET /api/orders status=200 duration=360ms
+2026-11-11 10:05:44,934 INFO    shop.api: request handled: GET /api/products status=200 duration=217ms
+2026-11-11 10:05:47,041 INFO    shop.api: request handled: GET /api/cart status=200 duration=319ms
+2026-11-11 10:05:53,257 INFO    shop.api: request handled: GET /api/orders status=200 duration=179ms
+2026-11-11 10:05:59,162 INFO    shop.api: request handled: GET /api/cart status=200 duration=275ms
+2026-11-11 10:06:07,782 INFO    shop.api: request handled: GET /api/products status=200 duration=384ms
+2026-11-11 10:06:33,701 INFO    shop.api: request handled: GET /api/products status=200 duration=234ms
+2026-11-11 10:06:37,595 INFO    shop.api: request handled: GET /api/products status=200 duration=331ms
+2026-11-11 10:06:41,130 INFO    shop.api: request handled: POST /api/checkout status=201 duration=272ms
+2026-11-11 10:06:43,092 INFO    shop.api: request handled: GET /api/orders status=200 duration=318ms
+2026-11-11 10:06:44,852 INFO    shop.api: request handled: GET /api/cart status=200 duration=341ms
+2026-11-11 10:06:46,818 WARNING shop.api.cache: using deprecated redis client v3, set REDIS_V4=1
+2026-11-11 10:06:47,067 INFO    shop.api: request handled: GET /api/products status=200 duration=329ms
+2026-11-11 10:06:47,305 INFO    shop.api: request handled: GET /api/search status=200 duration=245ms
+2026-11-11 10:06:49,178 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:06:50,633 INFO    shop.api: request handled: GET /api/search status=200 duration=235ms
+2026-11-11 10:06:52,631 WARNING shop.api.cache: using deprecated redis client v3, set REDIS_V4=1
+2026-11-11 10:06:53,426 INFO    shop.api: request handled: GET /api/cart status=200 duration=41ms
+2026-11-11 10:06:55,403 INFO    shop.api: request handled: GET /api/cart status=200 duration=354ms
+2026-11-11 10:06:59,849 INFO    shop.api: request handled: GET /api/search status=200 duration=168ms
+2026-11-11 10:07:13,873 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:07:19,595 INFO    shop.api: request handled: GET /api/search status=200 duration=79ms
+2026-11-11 10:07:21,194 INFO    shop.api: request handled: GET /api/orders status=200 duration=20ms
+2026-11-11 10:07:21,929 INFO    shop.api: request handled: GET /api/products status=200 duration=73ms
+2026-11-11 10:07:49,158 INFO    shop.api: request handled: GET /api/cart status=200 duration=117ms
+2026-11-11 10:07:54,354 INFO    shop.api: request handled: GET /api/cart status=200 duration=251ms
+2026-11-11 10:07:54,456 INFO    shop.api: request handled: POST /api/checkout status=201 duration=58ms
+2026-11-11 10:07:55,100 INFO    shop.api: request handled: GET /api/products status=200 duration=208ms
+2026-11-11 10:07:59,545 INFO    shop.api: request handled: GET /api/products status=200 duration=228ms
+2026-11-11 10:08:06,232 WARNING shop.api.cache: using deprecated redis client v3, set REDIS_V4=1
+2026-11-11 10:08:06,470 INFO    shop.api: request handled: GET /api/cart status=200 duration=245ms
+2026-11-11 10:08:07,524 INFO    shop.api: request handled: GET /api/cart status=200 duration=110ms
+2026-11-11 10:08:13,420 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:08:14,248 INFO    shop.api: request handled: POST /api/checkout status=201 duration=129ms
+2026-11-11 10:08:16,145 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:08:16,268 INFO    shop.api: request handled: GET /api/products status=200 duration=233ms
+2026-11-11 10:08:25,660 INFO    shop.api: request handled: GET /api/orders status=200 duration=394ms
+2026-11-11 10:08:36,508 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:08:41,821 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:08:44,050 INFO    shop.api: request handled: GET /api/products status=200 duration=359ms
+2026-11-11 10:08:44,210 INFO    shop.api: request handled: GET /api/search status=200 duration=339ms
+2026-11-11 10:08:47,616 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:09:04,341 INFO    shop.api: request handled: GET /api/orders status=200 duration=347ms
+2026-11-11 10:09:08,177 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:09:12,246 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:09:19,018 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:09:21,398 ERROR   shop.api.payments: payment gateway timeout after 3000ms for order ord_7040
+2026-11-11 10:09:25,905 WARNING shop.api.cache: cache miss for key product:9526
+2026-11-11 10:09:27,543 INFO    shop.api: request handled: GET /api/products status=200 duration=285ms
+2026-11-11 10:09:30,421 INFO    shop.api: retrying request to payments (attempt 2)
+2026-11-11 10:09:53,747 INFO    shop.api: request handled: GET /api/orders status=200 duration=365ms
+2026-11-11 10:09:58,298 INFO    shop.api: request handled: POST /api/checkout status=201 duration=178ms
